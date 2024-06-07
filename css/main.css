@@ -1,0 +1,40 @@
+
+.form-control:focus{
+  box-shadow: none;
+}
+body{
+  background-color: #24353f;
+}
+.btn:hover{
+  color: white;
+  /* background-color: #17a2b8; */
+  border-color: #17a2b8;
+}
+
+h1{
+  color: #2086b8;
+}
+.container{
+  background-color: #24353f;
+  box-shadow: black 0px 0px 30px ;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+.form-control{
+  background-color: #24353f;
+  color: white;
+}
+.form-control::placeholder{
+  color: gray;
+}
+.form-control:focus{
+  background-color: #24353f;
+box-shadow: 0 0 0 1px #2086b8;
+border-color: #2086b8;
+color: white;
+
+}

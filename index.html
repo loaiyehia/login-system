@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav id="nav" class="navbar px-5 d-none shadow mb-5">
+      <h3 class="nav-item text-capitalize text-white">smart login</h3>
+      <button id="logout" class="btn btn-outline-warning"><a class="text-decoration-none text-white">logout</a></button>
+    </nav>
+    <section id="wel" class="container ">
+
+    </section>
+    <main class="mt-4 d-flex justify-content-center align-items-center">
+      <section>
+        <div id="main" class="container p-5 mt-5">
+          <div  class="text-center" >
+            <h1 class="text-center mb-4">Smart Login System</h1>
+            <div class="row">
+              <input
+                id="userName"
+                type="text"
+                class="form-control d-none"
+                placeholder="Enter your name"
+              />
+              <div class="p-0 mt-3">
+                <input
+                  id="userEmail"
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                />
+                <div id="incorrect" class="alert alert-danger py-1 mt-2 d-none">
+                  <small>incorrect email or password</small>
+                </div>
+                <input
+                  id="userPassword"
+                  type="password"
+                  class="form-control mt-3"
+                  placeholder="Enter password"
+                />
+              </div>
+              <p id="incorrect" class="text-danger text-center mt-4 d-none">
+                incorrect email or password
+              </p>
+              <button id="btn" class="btn mt-4 btn-outline-info">Login</button>
+              <p id="para" class="text-center text-white mt-3">
+                Don’t have an account?
+                <a id="SignUp" class="text-white" href="">SignUp</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
